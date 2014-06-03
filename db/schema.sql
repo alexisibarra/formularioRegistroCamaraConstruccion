@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS inscripcion;
+CREATE TABLE inscripcion (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  empresa_nombre VARCHAR(20),
+  empresa_rif VARCHAR(20),
+  empresa_snc VARCHAR(20),
+  empresa_registro VARCHAR(20),
+  empresa_tomo VARCHAR(20),
+  empresa_mercantil VARCHAR(20),
+  empresa_socios VARCHAR(20),
+  empresa_capital VARCHAR(20),
+  empresa_nivel VARCHAR(20),
+  empresa_direccion VARCHAR(20),
+  empresa_telefonos VARCHAR(20),
+  empresa_especialidad VARCHAR(20),
+  empresa_twitter VARCHAR(20),
+  afiliado_nombre VARCHAR(20),
+  afiliado_ci VARCHAR(20),
+  afiliado_edad VARCHAR(20),
+  afiliado_nacionalidad VARCHAR(20),
+  afiliado_edocivil VARCHAR(20),
+  afiliado_profesion VARCHAR(20),
+  afiliado_direccion VARCHAR(20),
+  afiliado_telhab VARCHAR(20),
+  afiliado_telcel VARCHAR(20),
+  afiliado_email VARCHAR(20)
+);
