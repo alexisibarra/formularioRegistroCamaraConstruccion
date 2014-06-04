@@ -23,5 +23,6 @@ CREATE TABLE inscripcion (
   afiliado_direccion VARCHAR(20),
   afiliado_telhab VARCHAR(20),
   afiliado_telcel VARCHAR(20),
-  afiliado_email VARCHAR(20)
+  afiliado_email VARCHAR(20),
+	unique(empresa_rif)
 );
