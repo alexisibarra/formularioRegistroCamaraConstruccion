@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <title>Viajanet Venezuela</title>
+  <title>Cámara Bolivariana de construcción</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
@@ -18,7 +18,7 @@
 <body>
 <div id="wrapper" class="container">
 <?php
-	require 'Model/dbFunctions.php';
+	require 'Model/model.php';
 
   $model = new Model('local');
 
