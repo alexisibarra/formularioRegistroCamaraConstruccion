@@ -1,4 +1,4 @@
-# Formulario de registro para la Cámara Bolívariana de Construcción
+# Formulario de registro para la Cámara Bolivariana de Construcción
 
 ## Instrucciones de instalación
 
