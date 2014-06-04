@@ -11,7 +11,7 @@
   <h1> Planilla de solicitud de inscripcion </h1>
   <form role="form" action="./" method="get">
 		<input type=hidden name="controlador" value="registro">
-		<input type=hidden name="accion" value="insertar">
+		<input type=hidden name="accion" value="procesar">
 
     <div class="row">
       
