@@ -5,7 +5,7 @@ class Model{
   // Constructor - open DB connection
   function __construct($location) {
     if ($location =="local"){
-      $DB_NAME = "robotdb_web";	
+      $DB_NAME = "camara_construccion";	
       $HOST="localhost";
       $DB_USER="root";
       $DB_PWD="mysqlpass";
