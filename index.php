@@ -16,7 +16,7 @@
   </script>
 </head>
 <body>
-<div id="wrapper">
+<div id="wrapper" class="container">
 <?php
 	require 'Model/dbFunctions.php';
 
