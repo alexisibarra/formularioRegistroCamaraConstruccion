@@ -4,13 +4,15 @@
     <div class="form-group col-xs-'.$tamXS.' col-md-'.$tamMD.' ">
       <label for="'.$id.'">'.$texto.'</label>
       <input type="'.$tipo.'" class="form-control input-sm '.$clase.'" 
-        id="'.$id.'" required>
+        id="'.$id.'" name="'.$id.'" required>
     </div>';      
   }
 ?>
-<div class="container">
   <h1> Planilla de solicitud de inscripcion </h1>
-  <form role="form">
+  <form role="form" action="./" method="get">
+		<input type=hidden name="controlador" value="registro">
+		<input type=hidden name="accion" value="insertar">
+
     <div class="row">
       
       <!-- Datos de la empresa -->
@@ -70,4 +72,3 @@
       <button type="submit" class="btn btn-default">Enviar</button>
     </div>
   </form>
-</div>
